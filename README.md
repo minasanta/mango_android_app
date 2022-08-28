@@ -1,2 +1,2 @@
 # mango_android_app
-A student helper app 
+A student helper app  
