@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer_layout3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+    <include
+        layout = "@layout/main_toolbar"/>
+    </LinearLayout>
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtStatue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Time to Work"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:indeterminateOnly = "false"
+        android:progressDrawable = "@drawable/circle"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        tools:progress="100" />
+
+    <TextView
+        android:id="@+id/textCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/progress_bar"
+        android:layout_alignTop="@+id/progress_bar"
+        android:layout_alignEnd="@+id/progress_bar"
+        android:layout_alignBottom="@+id/progress_bar"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btnStartPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar"
+        android:layout_alignStart="@+id/progress_bar"
+        android:backgroundTint="@color/leaf"
+
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar"
+        android:layout_alignEnd="@+id/progress_bar"
+        android:text="Reset"
+        android:visibility="invisible"
+        android:backgroundTint="@color/leaf"
+        tools:visibility="visible"
+        />
+
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include
+            layout="@layout/main_navigation"/>
+
+    </RelativeLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
