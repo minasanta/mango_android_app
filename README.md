@@ -46,7 +46,7 @@ The code can be viewed/modified on Android Studio with SDK version 33.
 
     It implements a simplistic design with little to no visual obstacles. The design language focuses on simple, straight forward elements that blend together without causing any visual hazards.
 
-    The design of the app and implementation of a sliding navigation menu, in addition to putting all the small peices together was done by Fady Makram and Mina Adel.
+    The design of the app and implementation of a sliding navigation menu, in addition to putting all the small peices together was done by Fady Makram and Mina Adil.
 
 - Back-End and Functionality
 
@@ -75,7 +75,13 @@ The code can be viewed/modified on Android Studio with SDK version 33.
 
     Implemented by Mina Nabil and Mina Khalifa.
 
-
+## Authors
+- Fady Makram
+- Mina Adil
+- Mina Ashraf
+- Mina Nabil
+- Mina Khalifa
+- Mina Anis
 
 ## Copyrights And Acknowledgements
 
