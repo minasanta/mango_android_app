@@ -6,7 +6,8 @@
 2. Usage
 3. Dependencies And Requirements
 4. Development and Functionality
-5. Copyrights And Acknowledgements
+5. Authors
+6. Copyrights And Acknowledgements
 
 ## Project Description 
 
