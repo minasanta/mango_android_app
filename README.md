@@ -79,7 +79,7 @@ The code can be viewed/modified on Android Studio with SDK version 33.
 ## Authors
 - Fady Makram
 - Mina Adil
-- Mina Ashraf
+- Mena Ashraf
 - Mina Nabil
 - Mina Khalifa
 - Mina Anis
