@@ -75,7 +75,7 @@ The code can be viewed/modified on Android Studio with SDK version 33.
     Implemented by Mina Nabil and Mina Khalifa.
 
 ## Authors
-- Fady Makram
+- Fady Makram 
 - Mina Adil
 - Mena Ashraf
 - Mina Nabil
